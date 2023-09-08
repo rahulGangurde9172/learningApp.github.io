@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Learning Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Language Learn<span>ing Quiz </span></h1>
+
+        
+        
+        <!-- Language Selection -->
+        <div class="language-selection">
+            <div class="rules">               
+                <p>
+                    <span>Rules & Conditons: </span><br>           
+                1.Only the students of computer science are eligible to participate. <br>
+                2. The questions shall be in the form of multiple choice, true/false statement, specific answer
+                question etc. <br>
+            </p>
+                <h2>Best of Luck!!</h2>
+            </div>
+            
+            <label for="language-select">Select a Language:</label>
+            <select id="language-select">
+                <option value="english">English</option>
+                <option value="hindi">hindi</option>
+                
+                <!-- Add more languages here -->
+            </select>
+            <button id="start-quiz-button">Start Quiz</button>
+        </div>
+        
+        <!-- Quiz Container -->
+        <div class="quiz-container">
+            <div class="question">
+                 <!-- Display the question here -->
+                <p id="question-text">In C, what is the result of sizeof(int) on a typical 32-bit system?</p>
+            </div>
+            <div class="options">
+                <!-- Display answer options here -->
+                <button class="option" id="option-1">2 bytes</button>
+                <button class="option" id="option-2">4 bytes</button>
+                <button class="option" id="option-3">8 bytes</button>
+            </div>
+            <div class="feedback">
+                <!-- Display feedback for the user's answer here -->
+                <p id="feedback-text"></p>
+            </div>
+            
+            <button class="next-button" id="next-button" style="display: none;">Next</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

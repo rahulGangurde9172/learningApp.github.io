@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(235, 223, 223)
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #7f00ff;
+    font-weight: 800;
+}
+
+h1 span{
+    color: #bf80ff;
+}
+
+.language-selection {
+    margin-top: 50px;
+    font-size: 1.7rem;
+
+}
+
+.language-selection #language-select{
+    padding: 4px;
+}
+
+.language-selection #start-quiz-button{
+    padding: 5px;
+    background: #b266ff;
+    border: none;
+    cursor: pointer;
+    border-radius: .5rem;
+    font-weight: 700;
+}
+.quiz-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.question {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.next-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.language-selection .rules p{
+    font-size: 1rem;
+}
+.language-selection .rules span{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:#b266ff ;
+} 
+.language-selection .rules h2{
+    color:#b266ff ;
+
+}
